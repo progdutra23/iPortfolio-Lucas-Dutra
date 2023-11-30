@@ -565,3 +565,101 @@ body {
   opacity: 1;
   bottom: 0;
 }
+
+/* ====== Serviços ========= */
+
+
+/* ======= avaliações ====== */
+
+
+/* ====== formulário ======= */
+
+.contactc{
+  padding-bottom: 130px;
+}
+
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px rgba(238, 77, 144);
+}
+
+.contact .info i {
+  font-size:  20px;
+  color: rgba(238, 77, 144);
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #173b6c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #173b6c;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.contact .info .email p {
+  padding: 5px;
+}
+
+.contact .info .adress:hover i,
+.contact .info .email:hover i,
+.contact .info .phone:hover i {
+  background: #2eafec;
+  color: fuchsia;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: nome;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #149ddd;
+}
